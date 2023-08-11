@@ -4,7 +4,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
     title: "Nike Air Monarch IV",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "200",
@@ -15,7 +15,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
     title: "Nike Air Vapormax Plus",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "200",
@@ -27,7 +27,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/51+P9uAvb1L._AC_UY695_.jpg",
     title: "Nike Waffle One Sneaker",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "200",
@@ -164,7 +164,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
     title: "Fusion Evo Golf Shoe",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "100",
@@ -175,7 +175,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/719gdz8lsTS._AC_UX575_.jpg",
     title: "Rainbow Chex Skate",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "100",
@@ -186,7 +186,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/71gpFHJlnoL._AC_UX575_.jpg",
     title: "Low-Top Trainers",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "100",
@@ -197,7 +197,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/71pf7VFs9CL._AC_UX575_.jpg",
     title: "Vans Unisex Low-Top",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "100",
@@ -208,7 +208,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/61N4GyWcHPL._AC_UY575_.jpg",
     title: "Classic Bandana Sneakers",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "50",
@@ -219,7 +219,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/61bncQ44yML._AC_UX695_.jpg",
     title: "Chunky High Heel",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "50",
@@ -230,7 +230,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/71czu7WgGuL._AC_UY695_.jpg",
     title: "Slip On Stiletto High Heel",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "100",
@@ -241,7 +241,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/61men05KRxL._AC_UY625_.jpg",
     title: "DREAM PAIRS Court Shoes",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "150",
@@ -252,7 +252,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
     title: "Nike Air Vapormax Plus",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "200",
@@ -264,7 +264,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/51PGWTXgf-L._AC_UY625_.jpg",
     title: "Low Mid Block Heels",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "200",
@@ -277,7 +277,7 @@ const data = [
     title: "Chunky High Heel",
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     newPrice: "50",
     company: "Adidas",
     color: "black",
@@ -288,7 +288,7 @@ const data = [
     title: "Amore Fashion Stilettos",
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     newPrice: "150",
     company: "Adidas",
     color: "white",
@@ -297,7 +297,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/61uw5RDxKQL._AC_UY625_.jpg",
     title: "Bridal Sandals Glitter",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "50",
@@ -308,7 +308,7 @@ const data = [
   {
     img: "https://m.media-amazon.com/images/I/71yhoZP0l6L._AC_UY695_.jpg",
     title: "Wedding Prom Bridal",
-    star: '<AiFillStar className="rating-star" />',
+    star: '<AiFillStar className="ratings-star" />',
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
     newPrice: "50",
