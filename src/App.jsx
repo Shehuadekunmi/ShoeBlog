@@ -11,6 +11,7 @@ import './index.css'
 // data base
 import products from './db/data'
 import Card from './components/Card'
+import Footer from './footer/Footer'
 
 function App() {
 
@@ -19,20 +20,21 @@ function App() {
 
 
   // ------------input filter-------
-  const handleInputChange = event => {
+  const handleInputChange = (event) => {
     setQuery(event.target.value)
   };
-  const filteredItems = products.filter(product =>
+  const filteredItems = products.filter(
+    (product) =>
     product.title.toLocaleLowerCase().indexOf(query.toLocaleLowerCase())!== -1);
 
   // ------------Radio filter-------
-  const handleChange = event => {
+  const handleChange = (event) => {
     setSelectedCategory(event.target.value)
   }
 
   // ------------Buttons filter-------
 
-  const handleClick = event => {
+  const handleClick = (event) => {
     setSelectedCategory(event.target.value)
   }
 
@@ -72,9 +74,10 @@ function App() {
   return (
     <>
       <Sidebar handleChange={handleChange} />
-      <Nav query={query} handleChange={handleChange} />
+      <Nav query={query} handleInputChange={handleInputChange} />
       <Recommended handleClick={handleClick} />
       <Products result={result} />
+      <Footer/>
 
 
     </>

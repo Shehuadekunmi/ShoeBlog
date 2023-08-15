@@ -26,3 +26,19 @@
     display: flex;
     margin-left: 20rem;
 }
+.one, .two{
+    display: flex;
+}
+
+@media (max-width:768px) {
+    .recommended-flex{
+        margin-left: 8rem;
+        display: block;
+    }
+    .two{
+        margin-top: 10px;
+    }
+    .recommended-title{
+        margin-left: 8rem;
+    }
+}

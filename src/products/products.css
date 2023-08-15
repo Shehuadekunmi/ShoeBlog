@@ -45,3 +45,9 @@
 .bag{
     color: #535353;
 }
+
+@media (max-width:768px) {
+    .card{
+        margin-left: -12rem;
+    }  
+    }

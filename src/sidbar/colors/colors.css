@@ -5,3 +5,9 @@
 .all{
     background: linear-gradient(blue, crimson);
 }
+
+@media (max-width:768px) {
+    .color{
+        margin-bottom: 40px;
+    }
+}
